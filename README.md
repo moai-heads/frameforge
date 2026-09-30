@@ -4,7 +4,7 @@ A lightweight, browser-based vector drawing and frame animation studio. No build
 
 ## Use it
 
-Open the [FrameForge app](https://moai-heads.github.io/frameforge/) in a modern browser. Draw with the toolbar, edit selected objects in Properties, and use the timeline to add keyframes. With Select active, drag a line near its edge to curve it; drag a filled shape to move it. **Save project** downloads a `.ffx.json` project; **Open** loads one. Export artwork as SVG or PNG.
+Open the [FrameForge app](https://moai-heads.github.io/frameforge/) in a modern browser. Draw with the toolbar, edit selected objects in Properties, and use the timeline to add keyframes. With Select active, drag a line near its edge to curve it. Grab an endpoint to move it; drag it onto another line end to join, or onto its middle to split that line and create a junction. Drag inside a filled shape to move it. **Save project** downloads a `.ffx.json` project; **Open** loads one. Export artwork as SVG or PNG.
 
 ## Run locally
 
@@ -13,7 +13,7 @@ Open `index.html` directly in a browser, or run a static web server in this fold
 ## Keyboard shortcuts
 
 - `V` select · `P` freehand · `R` rectangle · `O` ellipse · `L` line · `T` text
-- Select tool: drag near a line to bend it, or drag a filled shape to move it
+- Select tool: drag near a line to bend it; grab endpoints to move/join/split lines; drag inside filled shapes to move them
 - `Delete` remove selection · `Ctrl/Cmd+Z` undo · `Ctrl/Cmd+Shift+Z` redo
 - `F6` insert keyframe · `Space` temporarily pan
 
